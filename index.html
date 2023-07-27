@@ -21,7 +21,13 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">ANGELFUERZA</a>
+            <a class="navbar-brand" href="#page-top">
+                <div class="logo-image">
+                    <img src="assets/img/AF2.png" class="img-fluid">
+                </div>
+            </a>
+
+
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,6 +39,20 @@
                     <li class="nav-item"><a class="nav-link" href="#about">INICIO</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">SOBRE MI</a></li>
                     <li class="nav-item"><a class="nav-link" href="#signup">CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog">BLOG</a></li>
+
+                    <li class="nav-item">
+
+ 
+
+                        <div class="form-check form-switch">
+                            <input class=" check en" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label es" for="flexSwitchCheckDefault">Spanish</label>
+                        </div>
+
+
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -57,19 +77,17 @@
                     <h2 class="text-white mb-4">SERVICIOS</h2>
                     <p class="text-white-50">
 
-                        Un DISEÑO que atraerá a tus clientes, y una TECNOLOGÍA que les dará una experiencia única.
-                        Desarrollo, diseño y mantengo páginas web minimalistas así como interfaces funcionales que
-                        sorprenderán y facilitaran el acceso a tus clientes, te harán destacar e introducirte a ti o tu
-                        negocio en el mundo digital.
-                        Asesoro y ayudo a implementar las mejores soluciones para que puedas sacarle el máximo partido a
-                        tu negocio en el mundo digital
-
-
+                        🚀Ayudo a profesionales y empresas con el desarrollo de su sitio web, diseñando interfaces minimalistas y usando
+                        las mejores tecnologías💻
+                    
 
                     </p>
+
+                    <p><a href="assets/servicios.pdf" download="servicios">VER LISTA DE SERVICIOS</a></p>
+
                 </div>
             </div>
-            <img class="img-fluid" src="assets/img/fotogorra.jpeg" alt="..." />
+            <img class="img-fluid" src="assets/img/fotoDev.jpeg" alt="..." />
         </div>
 
 
@@ -79,18 +97,19 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/fotomobil.jpeg"
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/fotogorra.jpeg"
                         alt="..." /></div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4>SOBRE MI</h4>
-                        <p class="text-black-50 mb-0">Desarrollador web, especializado en Front-end. Tengo pasión por la
+                        <p class="text-black-50 mb-0">Desarrollador web front-end. Tengo pasión por la
                             tecnología y cómo esta puede ayudar a las personas.
                             Creo en los VALORES del aprendizaje constante y el trabajo para alcanzar objetivos y dar la
                             mejor version de nosotros mismos.
-                            Tengo conocimiento en diferentes heramientas así como varios años de experiencia en
+                            Cuento con una base de conocimientos en diferentes áreas del desarrollo, así como varios
+                            años de experiencia en
                             diferentes proyectos.
-                            Además de la tecnología, tengo pasión por el fitness y el mundo del motor</p>
+                            Además de la tecnología, me apasiona el fitness y el mundo del motor</p>
                     </div>
                 </div>
             </div>
@@ -102,9 +121,9 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Desarrollo y asesoría</h4>
-                                <p class="mb-0 text-white-50">Puedo desarrollar y asesorar en proyectos web de
-                                    diferentes áreas. Manejo tecnologías como: HTML, CSS, Javascript, Shopify, Canva,
-                                    Integraciones para pagos on-line</p>
+                                <p class="mb-0 text-white-50">Utilizo las últimas tecnologías web HTML5, CSS,
+                                    Javascript, y herramientas como Shopify, Canva o
+                                    integraciones para pagos on-line</p>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -135,34 +154,44 @@
         <!--AQUI VA EL FORMULARIO DE CONTACTO-->
         <h2 class="h2Contacto mb-4">CONTACTO</h2>
         <!--FORMULARIO ESTILIZADO-->
-        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/exito.html">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/exito">
 
             <div class="containerFormulario m-4 p-2 ">
 
                 <div class="mb-2">
 
-                    <div class="mb-2">
-                        <input type="text" name="fullname" class="form-control" aria-label="tu nombre" placeholder="Nombre">
-                    </div>
-
-                    <div class="mb-2">
-                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                    </div>
-
-                    <div class="mb-2">
-                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Mensaje"></textarea>
-                    </div>
-
-               
-                <div data-netlify-recaptcha="true"></div>
-             
-
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-primary" type="submit">ENVIAR</button>
-                    </div>
+                    <select name="role[]" multiple class="form-select" aria-label="Default select example">
+                        <option selected>Busco:</option>
+                        <option value="Desarrollo/Diseño">Desarrollo Web/Diseño</option>
+                        <option value="Asesoría">Asesoría</option>
+                        <option value="Otros">Otros</option>
+                    </select>
 
                 </div>
+
+                <div class="mb-2">
+                    <input type="text" name="fullname" class="form-control" aria-label="tu nombre" placeholder="Nombre">
+                </div>
+
+                <div class="mb-2">
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Email">
+                </div>
+
+                <div class="mb-2">
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Mensaje"></textarea>
+                </div>
+
+
+                <div data-netlify-recaptcha="true"></div>
+
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="submit">ENVIAR</button>
+                </div>
+
+            </div>
 
             </div>
 
@@ -188,7 +217,7 @@
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy;angelfuerza</div>
-        <div class="container px-4 px-lg-5"><a href="politicas.html"> Politica de privacidad</a></div>
+        <div class="container px-4 px-lg-5"><a href="politicas"> Politica de privacidad</a></div>
 
     </footer>
 
@@ -201,6 +230,7 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

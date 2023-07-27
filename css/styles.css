@@ -2533,7 +2533,8 @@ textarea.form-control-lg {
 }
 
 .form-switch {
-  padding-left: 2.5em;
+  padding-left: 0.1em;
+  padding-top: 1.2rem;
 }
 .form-switch .form-check-input {
   width: 2em;
@@ -11565,10 +11566,10 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bannerweb1.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/pcimage3.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
@@ -11730,4 +11731,66 @@ body {
 .h2Contacto{
   text-align: center;
 }
+
+/*Estilos para el logo en el navbar*/
+.logo-image{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+/*ESTILOS DEL CHECKBOX MULTI IDIOMA*/
+.es{
+  color: #333;
+}
+
+.en{
+  color: #fa9f43;
+}
+
+.check{
+  position: relative;
+  width: 50px;
+  align-items:baseline;
+}
+
+.check:before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background: #333;
+  border-radius: 25px;
+}
+
+.check:after{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 25px;
+  transition: 0.25s;
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+
+.check:checked:after{
+  left: 25px;
+  border: 2px solid #fa9f43;
+}
+
+.check:checked:before{
+  background: #fa9f43;
+}
+
+/*Estilos Bootstrap para el responsive del checkbox*/
+
+
+
+/*FIN ESTILOS CHECKBOX MULTI-IDIOMA*/
+
+
 
