@@ -1,6 +1,5 @@
 # angelfuerzaWeb
 Mi web
 
-Tiene toda la web base a una plantilla de bootstrap 
-Cree aparte el formulario con bootstrap para el estilo + netlify forms para que sea funcional sin backend
-porque usa el servicio serverless de netlify. Tiene favicon, y de todo
+Web diseñada con bootstrap y startbootstrap
+Cree a parte el formulario con bootstrap para el estilo + serverless forms para que sea funcional. Tiene favicon, navbar efecto glass, boton para cambio de idioma blog y mas
