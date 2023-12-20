@@ -1,0 +1,32 @@
+MI WEB DARK:
+
+Body{
+background-color: #1f1f1f;
+
+
+.bg-light
+background-color: #1f1f1f;
+Color: white;
+
+
+
+.text-black-50
+
+color white;
+
+
+.about-section {
+background-color: #1f1f1f;
+
+
+.toggler-icon {
+
+background: white;
+
+
+.bg-black {
+background-color: #484848;
+
+Quitar el bg black del contact section
+
+Después poner el logo blanco
