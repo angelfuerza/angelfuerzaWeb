@@ -11794,6 +11794,7 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background-color: black !important;
 }
 
 /*Estilos para el formulario*/
