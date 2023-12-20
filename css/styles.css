@@ -88,7 +88,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+ background-color: #1f1f1f;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4228,7 +4228,7 @@ textarea.form-control-lg {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: black ;
+  background: white ;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -8040,7 +8040,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: white;
 }
 
 .text-white-50 {
@@ -8101,7 +8101,9 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+background-color: #1f1f1f;
+Color: white;
+
 }
 
 .bg-dark {
@@ -8111,7 +8113,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #484848;
 }
 
 .bg-white {
@@ -11701,7 +11703,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background-color: #1f1f1f;
 }
 .about-section p {
   margin-bottom: 5rem;
