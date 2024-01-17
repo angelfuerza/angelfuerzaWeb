@@ -1,0 +1,36 @@
+<!-- Inicio artículo-->
+<div class="container px-4 px-lg-5 border border-1 rounded mt-5">
+
+
+    <article>
+        <h2 class="mb-3">NOMBRE ARTICULO</h2>
+        <!-- IMAGEN DEL ARTICULO-->
+        <img class="img-responsive"
+            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UEVSU09OQUwlMjBERVZFTE9QTUVOVHxlbnwwfHwwfHx8MA%3D%3D"
+            width="80%" height="30%">
+
+            <!-- CONTENIDO DEL ARTICULO-->
+        <p>
+
+        </p>
+
+        <p>
+
+        </p>
+
+        <p>
+
+        </p>
+
+
+        <p>
+            Espero que este artículo te sea de valor!
+        </p>
+
+        <time datetime='2023-08-29' pubdate>FECHA</time>
+
+
+    </article>
+
+</div>
+<!--Fin artículo-->
