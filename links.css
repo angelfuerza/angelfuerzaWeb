@@ -10,6 +10,7 @@ body {
     background: url(assets/annie-spratt-6a3nqQ1YwBw-unsplash\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:fixed;
     height: 100vh;
  
     width: 100%;
