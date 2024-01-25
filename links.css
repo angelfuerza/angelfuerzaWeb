@@ -1,0 +1,107 @@
+/*Estilos para el linktree*/
+
+body {
+
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: url(assets/annie-spratt-6a3nqQ1YwBw-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ 
+    width: 100%;
+
+    font-family: sans-serif;
+    
+}
+
+
+.arriba{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    padding: 4px;
+}
+
+.imagenPerfil {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+
+    border-radius: 106px;
+    background: url(assets/5d8131b665b9674633745bb177eb9ed1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 25px;
+
+}
+
+
+.misLinks{
+    width: 172px;
+height: 31px;
+flex-shrink: 0;
+
+text-align: center;
+
+color: #FFF;
+text-align: center;
+
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+margin-top:20px;
+}
+
+.angelfuerza{
+    margin-left: 7px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.lista{
+    margin: 5px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+    
+}
+
+.lista a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+.links li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    height: 45px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+background: #686666;
+text-align: center;
+margin: 15px;
+
+
+
+
+}
